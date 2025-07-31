@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "id": "particlerain",
+  "version": "${version}",
+  "name": "Particle Rain",
+  "description": "Replaces rain with a particle effect.",
+  "authors": [
+    "PigCart"
+  ],
+  "contact": {
+    "sources": "https://github.com/PigCart/particle-rain",
+    "issues": "https://github.com/PigCart/particle-rain/issues"
+  },
+  "license": "MIT",
+  "icon": "assets/particlerain/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "pigcart.particlerain.ParticleRainClient"
+    ],
+    "modmenu": [
+      "pigcart.particlerain.ModMenuIntegration"
+    ]
+  },
+  "mixins": [
+    "particlerain.mixins.json"
+  ],
+  "accessWidener" : "particlerain.accesswidener",
+  "depends": {
+    "fabricloader": ">=0.12.8",
+    "fabric-api": "*",
+    "cloth-config2": "*",
+    "minecraft": ["1.21", "1.21.1"]
+  }
+}

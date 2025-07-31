@@ -1,0 +1,17 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "pigcart.particlerain.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "DripParticleMixin",
+    "LevelRendererMixin",
+    "RegistrySyncManagerMixin",
+    "SpriteLoaderMixin",
+    "TextureSheetParticleMixin",
+    "WaterDropParticleMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

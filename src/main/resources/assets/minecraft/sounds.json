@@ -1,0 +1,26 @@
+{
+  "weather.rain": {
+    "replace": true,
+    "sounds": [
+      { "name": "minecraft:weather/silent", "stream": true }
+    ]
+  },
+  "weather.rain.above": {
+    "replace": true,
+    "sounds": [
+      { "name": "minecraft:weather/silent", "stream": true }
+    ]
+  },
+  "weather.rain.inside": {
+    "replace": true,
+    "sounds": [
+      { "name": "minecraft:weather/silent", "stream": true }
+    ]
+  },
+  "weather.rain.above.smooth": {
+    "replace": true,
+    "sounds": [
+      { "name": "minecraft:weather/silent", "stream": true }
+    ]
+  }
+}
