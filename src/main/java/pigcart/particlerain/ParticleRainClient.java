@@ -177,12 +177,12 @@ public class ParticleRainClient implements ClientModInitializer {
         if (mc.level != null && mc.player != null) {
             boolean isRaining = mc.level.isRaining();
             if (isRaining && !wasRaining) {
-                System.out.println("Rain started on client");
+                //System.out.println("Rain started on client");
                 rainTicks = 0;
             }else if (isRaining) {
                 rainTicks++;
             }else if (wasRaining) {
-                System.out.println("Rain ended");
+                //System.out.println("Rain ended");
                 rainTicks = 0;
             }
 

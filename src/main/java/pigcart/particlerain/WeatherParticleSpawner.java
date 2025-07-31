@@ -24,7 +24,7 @@ public final class WeatherParticleSpawner {
     private static final BlockPos.MutableBlockPos pos = new BlockPos.MutableBlockPos();
 
     private static void spawnParticle(ClientLevel level, Holder<Biome> biome, double x, double y, double z) {
-        if (ParticleRainClient.particleCount > config.maxParticleAmount || ParticleRainClient.rainTicks <= 860) {
+        if (ParticleRainClient.particleCount > config.maxParticleAmount || ParticleRainClient.rainTicks <= 850) {
             return;
         } else if (!config.spawnAboveClouds && y > config.cloudHeight) {
             y = config.cloudHeight;
