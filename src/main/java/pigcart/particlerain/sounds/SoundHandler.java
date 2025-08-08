@@ -56,7 +56,7 @@ public class SoundHandler {
         int rainTicks = ParticleRainClient.rainTicks;
 
         // Rumbling transition (550-750 ticks)
-        if (rainTicks >= 550 && rainTicks <= 750) {
+        if (rainTicks >= 550 && rainTicks <= 850) {
             float rainTickDelay = rainTicks - 550;
             float rainIntensity = Math.min(2.0F, rainTickDelay / 200F);
 
@@ -68,7 +68,7 @@ public class SoundHandler {
             }
         }
         // Light and heavy rain transition (ticks > 750)
-        else if (rainTicks > 750) {
+        else if (rainTicks > 850) {
             float rainTickDelay = rainTicks - 750;
             float rainIntensity = Math.min(2.0F, rainTickDelay / 200F);
 
